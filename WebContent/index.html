@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>文件上传</title>
+</head>
+<body>
+<div class="container">
+	<form action="/fileupload/fileUploadServlet" method="post" enctype="multipart/form-data">
+		<input type="file" name="file"><br/>
+		<input type="submit" value="提交">
+	</form>
+	
+	<a href="/fileupload/fileDownloadServlet">下载</a>
+</div>
+</body>
+</html>
